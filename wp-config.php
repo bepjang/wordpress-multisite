@@ -80,6 +80,8 @@ $table_prefix  = 'wp_';
 define('WP_DEBUG', false);
 
 /* That's all, stop editing! Happy blogging. */
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
 
 /** Absolute path to the WordPress directory. */
 if ( !defined('ABSPATH') )
